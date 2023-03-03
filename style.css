@@ -1,0 +1,769 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover { 
+ color: #0065FC;
+}
+
+.container {
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+/* This is the utility classes  */
+
+.margin-left {
+    margin-left: auto;
+}
+
+.p-15-30 {
+    padding: 15px 30px;
+}
+
+
+.gap-20 {
+    gap: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-15-0{
+    padding: 15px 0px;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+.height-150 {
+    height: 150px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.width-100 {
+    width: 100%;
+}
+.margin-right {
+    margin-right: auto;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.p-30 {
+    padding: 30px 0px;
+}
+
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+.gap-50 {
+    gap:50px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-450 {
+    max-width: 450px;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+
+.mw-300 {
+    max-width: 350px;
+
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+
+
+.p-20 {
+    padding: 10px 20px 20px 10px
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* This is the navigation bar */
+
+.nav-logo {
+    width: 100px;
+
+}
+
+.nav-link {
+    border-top: 2px solid transparent;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.nav-link:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+
+/* This is the header/search section */
+
+.h-title {
+    margin-bottom: 0;
+}
+
+.h-subtext {
+    font-weight: 400;
+}
+
+.h-bar {
+    display: flex;
+    height: 45px;
+}
+
+.h-bar .fa-solid {
+    background-color: #f2f2f2;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.h-bar__input {
+    border: 1px solid #E7E9EB;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    max-width: 200px;
+    width: 300px;
+}
+
+
+.h-btn {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+}
+
+.h-btn .h-btn-icon {
+    display: none;
+
+}
+
+
+
+.h-card {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #E7E9EB;
+    border-radius: 25px;
+}
+
+.h-card:hover {
+    background-color: #DEEBFF;
+    transition-duration: 1s;
+}
+
+.h-card__icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.h-card__icon ~ .h-card__text {
+    padding: 14px 20px;
+    margin: 0;
+ 
+}
+
+
+.h-small-text {
+    margin: 0;
+    font-weight: 400;
+    padding: 0px 10px;
+
+}
+
+.p-15-30 {
+    padding: 15px 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.p-10-30 {
+    padding: 10px 30px;
+}
+
+
+/* This is the Accommodation in Marseille section */
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+
+.rounded {
+    border-radius: 25px;
+}
+
+
+.card-text {
+    padding: 10px 5px 5px 10px;
+}
+
+
+.card-subtext {
+    padding: 0;
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+.link-accom {
+    text-decoration: none;
+    color: black;
+}
+
+.link-accom:hover {
+    color: #0065FC;
+}
+
+/* Most popular side bar  */
+
+.flex {
+    display: flex;
+    flex-direction:row ;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.justify-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px 0px;
+    border: solid 5px #fff;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+
+.cards-flex-col {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.card-column {
+    display: flex;
+    background-color: white;
+    height: 120px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+
+.card-plain__title {
+    padding: 2px 15px;
+}
+
+/* This is the activities section */
+
+
+.img-l {
+    object-fit: cover;
+}
+
+/* This is the footer section */
+
+
+.bg-lg-grey {
+    background-color: #E7E9EB;
+}
+
+.bg-grey {
+    background-color: #E7E9EB;
+}
+
+
+.flex-col ul {
+    padding: 0;
+}
+
+.flex-col li {
+    list-style: none;
+    padding: 5px 0px;
+    font-weight: 300;
+}
+
+
+.flex-col li a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-col li a:hover {
+    color: #0065FC;
+}
+
+.card--sidebar {
+    display: flex;
+    background-color: white;
+}
+
+
+.card--sidebar .card__title {
+overflow: hidden;
+margin-bottom: 5px;
+}
+
+.card--sidebar .card-subtext {
+    flex-grow: 1;
+}
+
+.card--sidebar-img {
+   object-fit: cover;
+    width: 100px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.img-l {
+    flex-grow: 1;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.height-150 {
+    height: 150px;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+
+/* This is  CSS for Accommodations  */
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.card__img {
+    width: 100%;
+    max-height: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.card__body {
+    padding: 10px 15px;
+    
+}
+
+
+ .card__title {
+    padding: 0;
+    margin: 0;
+}
+
+
+.card-text {
+    padding: 0;
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.stars {
+    font-size: 12px;
+    color: #0065FC;
+}
+
+.star--grey {
+    color: #E7E9EB;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* This is most popular side section  */
+
+
+.height-350 {
+    height: 150px;
+}
+
+.card__img-container {
+    height: 150px;
+}
+
+.card .card__img--side {
+    width: 150px;
+    object-fit: cover;
+    height: 150px;
+}
+
+.card .card__img--side img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-text--margin {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card__title--margin{
+    margin: 0;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+
+/* This is CSS for the Activities in Marseille */
+
+.card-plain {
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-plain img {
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
+.card-plain .card__title {
+    padding:5px 15px;
+}
+
+
+.card-plain img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+
+/* This is the media query for screens 768px  */
+
+@media screen and (max-width: 768px)  {
+
+   
+    .card__title--margin {
+        margin-bottom: 0;
+    }
+
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
+    }
+
+    .order-sm-3 {
+        order: 3;
+    }
+
+    .order-sm-4 {
+        order: 4;
+    }
+
+    .bg-lg-grey {
+        background-color: transparent;
+    }
+
+    .gap-sm-20 {
+        gap: 20px;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+    .margin-30 {
+        margin-left: -30px;
+        margin-right: -30px;
+        
+    }
+
+    .margin-left {
+        margin-left: 0;
+    }
+    
+    .width-sm-100 {width: 100%;}
+
+    .h-title {
+        font-size: 25px;
+    }
+
+    .h-card__text {
+        font-size: 15px;
+    }
+
+    .h-small-text {
+        font-size: 15px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .h-btn .h-btn-icon {
+    display: block;
+    flex-grow: 0;
+   }
+
+    .h-btn-icon-1 {
+        flex-grow: 0;
+    }
+
+    .h-btn-text {display: none;}
+
+    .rounded {
+        border-radius: 0;
+    } 
+
+    .p-15-30 {
+        padding: 15px 0px;
+    }
+
+    .p-sm-0 {
+        padding: 0;
+    }
+    
+    .gap-sm-10 {
+        gap: 10px;
+    }
+
+    .mw-300 {
+        max-width: 100%;
+    }
+
+    .card-plain img {
+        height: 150px;
+    }
+
+    .p-15 {
+        padding: 0px 15px;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    .footer .flex-row {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .p-sm-10 {
+        padding: 0px;
+    }
+ 
+    .justify-sm-center {
+        align-items: center;
+    }
+
+  
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h-card__text {
+        width: 100%;
+        margin: 0 0;
+    }
+
+
+    .nav-link {
+        border-bottom: 2px solid transparent; 
+    }
+    
+    .nav-link:hover {
+        border-top: 2px solid transparent;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+    
+    }
+}
+
+/* This the media query for screens  992px */
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+
+    .card .card__img--side {
+        width: 100%;
+    }
+
+
+    .flex-col-sm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-col-reverse-sm {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex-row-sm {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
+    }
+
+    .mw-300 {
+        max-width: 100%;
+       
+    
+    } 
+
+    .flex-grow {
+        flex-grow: 1;
+    }
+
+    .flex-row-sm {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .height-350 {
+        height: 100%
+    }
+
+    .card__img--side {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+
+    .card__title--margin{
+        margin: 0;
+        overflow: hidden;
+        height: 40px;
+        
+        
+
+    }
+
+    .card-text--margin{
+        padding: 8px 0px;
+    }
+
+}
+
